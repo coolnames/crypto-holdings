@@ -23,7 +23,7 @@ pricing and holding values are user editable after page load, to play with 'what
 
 this is only meant to be used as a casual tool to check on your holdings; accuracy not guaranteed. (didn't even try to iron out all the php float jenk)
 
-
+hope people will use this as much as I do...or that this helps people learn how parse json data with php :call_me_hand:
 
 
 
