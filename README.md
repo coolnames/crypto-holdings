@@ -13,3 +13,4 @@ pricing and holding values are user editable after page load, to play with 'what
 
 this is only meant to be used as a casual tool to check on your holdings; accuracy not guaranteed. (didn't even try to iron out all the php float jenk)
 
+![crypto holdings screenshot](/crypto-holdings.gif)
