@@ -1,6 +1,6 @@
 # crypto-holdings.php
 
-crypto holdings calc'd with coinmarketcap's api + php
+cryptocurrency holdings calc'd with coinmarketcap's api + php
 ```
 by
   _  _   _  | ._   _. ._ _   _   _ 
