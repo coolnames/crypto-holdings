@@ -129,12 +129,12 @@ function rg($val){if($val>0){return "green";}else{return "red";}}
     foreach ($symbols as $symbol) {
         //returns symbol ID from json data
         $symbol_data_id = array_search($symbol, $data_ids);
-        if ($symbol_data_id == false){
-            //symbol not in $top, so get json for specific symbol
-            outputData($symbol, queryCMC($symbol, "", $headers)->data->$symbol->quote->USD);
-        }else{
+        if ($symbol_data_id == true || $symbol == "BTC"){
             //found in $top listings
             outputData($symbol, $top->data[$symbol_data_id]->quote->USD);
+        }else{
+            //symbol not in $top, so get json for specific symbol
+            outputData($symbol, queryCMC($symbol, "", $headers)->data->$symbol->quote->USD);
         }
     }
 
